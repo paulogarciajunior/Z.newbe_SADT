@@ -1,0 +1,14 @@
+package com.neobe.sadt;
+import com.neobe.sadt.solicitacao;
+rule "definir_prioridade"
+    ruleflow-group "prioridades"
+	dialect "mvel"
+	when
+		//Codigo Aqui
+		solicitacao()
+	then
+		//Codigo Aqui
+        //com.neobe.sadt.solicitacao( )System.out.println("<<< REGRAS PARA EVENTO >>>")
+end
+
+
